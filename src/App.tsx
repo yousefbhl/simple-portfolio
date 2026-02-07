@@ -1,53 +1,63 @@
 import React from 'react';
 import './App.css';
 
-// Replace with your own photo in the public folder and update the path below
+// Replace with your updated photo in the public folder
 const avatarUrl = process.env.PUBLIC_URL + '/avatar.jpg';
 
+// Education
 const education = [
   {
-    school: 'University of Example',
-    date: '2018 - 2022',
-    desc: 'B.Sc. in Computer Science. Graduated with honors, specialized in web development and UI/UX design.'
+    school: 'OFPPT – Digital Development',
+    date: '2024 - 2026',
+    desc: 'B.Sc. in Digital Development. Specialized in Web Fullstack Development, UI/UX design, and modern web technologies.'
   },
   {
-    school: 'Example High School',
-    date: '2016 - 2018',
-    desc: 'High School Diploma, Science stream.'
+    school: 'Moulay Youssef High School',
+    date: '2021 - 2024',
+    desc: 'High School Diploma, BAC SVT.'
   }
 ];
 
+// Experience (updated with your projects & work)
 const experience = [
   {
-    title: 'Frontend Developer',
-    company: 'Tech Solutions',
-    date: '2022 - Present',
-    desc: 'Building modern web apps with React, collaborating with designers, and improving user experience.'
+    title: 'Web Developer & Entrepreneur',
+    company: 'Self-Employed / RC Apparel & Web Projects',
+    date: '2025 - Present',
+    desc: 'Managing 15 websites and 15 Pinterest profiles focused on food, recipes, and e-commerce. Building fullstack web applications, optimizing SEO, and handling content creation and social media strategy.'
   },
   {
     title: 'Intern Web Developer',
     company: 'Webify Agency',
-    date: '2021 - 2022',
-    desc: 'Assisted in developing client websites and learned best practices in responsive design.'
+    date: '2022 - 2024',
+    desc: 'Assisted in developing client websites, implementing responsive design, and learning professional frontend & backend practices.'
   }
 ];
 
+// Skills (updated)
 const skills = [
-  'HTML', 'CSS', 'JavaScript', 'React', 'TypeScript', 'Node.js', 'Git', 'Figma'
+  'HTML', 'CSS', 'JavaScript', 'React', 'TypeScript', 'Node.js', 'PHP', 'Python', 'MySQL', 'Git', 'Figma', 'UI/UX Design', 'SEO', 'Content Management'
 ];
 
+// Projects (updated with your portfolio & websites)
 const projects = [
   {
-    title: 'Personal Blog',
-    desc: 'A modern blog platform built with React and Node.js.',
-    github: 'https://github.com/yourusername/personal-blog',
-    demo: 'https://yourblog.com'
+    title: 'RC Apparel Website',
+    desc: 'E-commerce website for RC Racing apparel, including branding and custom UI.',
+    github: 'https://github.com/yousefbhl',
+    demo: 'https://rc-apparel.com'
+  },
+  {
+    title: 'PurRecipe & Food Websites',
+    desc: 'Multiple recipe and food content websites managed and maintained professionally.',
+    github: 'https://github.com/yousefbhl',
+    demo: 'https://purrecipe.com'
   },
   {
     title: 'Portfolio Website',
-    desc: 'My own portfolio website to showcase my work and skills.',
-    github: 'https://github.com/yourusername/portfolio',
-    demo: 'https://yourportfolio.com'
+    desc: 'My personal portfolio showcasing web development projects, skills, and experience.',
+    github: 'https://github.com/yousefbhl',
+    demo: 'https://youssefbahloul.tech'
   }
 ];
 
@@ -57,16 +67,16 @@ function App() {
       {/* Sidebar */}
       <aside className="sidebar sticky-sidebar">
         <img src={avatarUrl} alt="Avatar" className="avatar" />
-        <h1>Your Name</h1>
-        <div className="title">Web Developer</div>
+        <h1>Youssef Bahloul</h1>
+        <div className="title">Web Developer & Entrepreneur</div>
         <div className="info">
-          <div className="info-item"><span className="info-label">Email:</span> your.email@example.com</div>
-          <div className="info-item"><span className="info-label">Phone:</span> +1 234 567 8901</div>
-          <div className="info-item"><span className="info-label">Location:</span> Your City, Country</div>
+          <div className="info-item"><span className="info-label">Email:</span> youbahyt@gmail.com</div>
+          <div className="info-item"><span className="info-label">Phone:</span> +212 778 81 33 66</div>
+          <div className="info-item"><span className="info-label">Location:</span> Casablanca, Morocco</div>
         </div>
         <div className="social">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/yousefbhl" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/youssef-bahloul-a81578350/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
       </aside>
 
